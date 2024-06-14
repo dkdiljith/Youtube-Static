@@ -1,0 +1,42 @@
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px; /* Ensure alignment with header height */
+  background-color: #fff; /* Use hex for efficiency (optional) */
+  width: 72px;
+  z-index: 2;
+  padding: 5px 0; /* Combine top and bottom padding for better maintainability */
+}
+
+/* Sidebar link styles */
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.15s ease; /* Improve hover effect */
+}
+
+.sidebar-link:hover {
+  background-color: #eee; /* Lighter hover color */
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+
+/* Icon size class (optional, consider using a utility class approach) */
+.icon-size {
+  width: 24px;
+  height: 24px;
+}

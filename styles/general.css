@@ -1,0 +1,18 @@
+/* Normalize margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style video titles */
+p.video-title {
+  font-family: Roboto, Arial, sans-serif; /* Use a fallback font */
+  text-decoration: none;
+}
+
+/* Style body element */
+body {
+  padding: 80px 24px 100px; /* Combine padding rules for better maintainability */
+  background-color: #f8f8f8; /* Use hex for efficiency (optional) */
+}
